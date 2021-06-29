@@ -1,0 +1,13 @@
+1.Compile
+	iverilog -o cpu.vvp cpu_tb.v cpu.v reg_file.v mux_twoscomp.v mux_immediate.v alu.v sign_extend_shift.v pc_adder.v control_unit.v mux_write.v data_memory.v  dcache.v   
+
+2.Run
+	vvp cpu.vvp
+
+
+3.Open with gtkwave
+	gtkwave cpu_wavedata.vcd
+
+
+
+note: gtkwave cpu_wavedata.vcd generated file is attatched as the screenshots are not much clear. (same is generated from gtkwave cpu_wavedata.vcd)

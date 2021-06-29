@@ -1,0 +1,117 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sun Jun 21 14:25:28 2020
+[*]
+[dumpfile] "/home/hanz_97/myHans/verilog/Lab6Files/lab6_part3/cpu_wavedata.vcd"
+[dumpfile_mtime] "Sun Jun 21 14:24:54 2020"
+[dumpfile_size] 56727
+[savefile] "/home/hanz_97/myHans/verilog/Lab6Files/lab6_part3/gtkwavedata.gtkw"
+[timestart] 0
+[size] 1853 1025
+[pos] -1 -1
+*-14.000000 3969000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.mycpu.
+[sst_width] 43
+[signals_width] 249
+[sst_expanded] 0
+[sst_vpaned_height] 301
+@28
+cpu_tb.CLK
+cpu_tb.RESET
+@420
+cpu_tb.PC[31:0]
+@22
+cpu_tb.INSTRUCTION[31:0]
+@28
+cpu_tb.mycpu.BUSYWAIT
+@200
+-Decode
+@28
+cpu_tb.mycpu.OPCODE[7:0]
+cpu_tb.mycpu.ALUOP[2:0]
+@200
+-Reg file
+@24
+cpu_tb.mycpu.myregfile.OUT1ADDRESS[2:0]
+@420
+cpu_tb.mycpu.myregfile.OUT1[7:0]
+@24
+cpu_tb.mycpu.myregfile.OUT2ADDRESS[2:0]
+@420
+cpu_tb.mycpu.myregfile.OUT2[7:0]
+@24
+cpu_tb.mycpu.myregfile.INADDRESS[2:0]
+@420
+cpu_tb.mycpu.myregfile.IN[7:0]
+@200
+-ALU
+@420
+cpu_tb.mycpu.myalu.DATA1[7:0]
+cpu_tb.mycpu.myalu.DATA2[7:0]
+cpu_tb.mycpu.myalu.RESULT[7:0]
+@200
+-Register values
+@420
+cpu_tb.mycpu.myregfile.\registers[0][7:0]
+cpu_tb.mycpu.myregfile.\registers[1][7:0]
+cpu_tb.mycpu.myregfile.\registers[2][7:0]
+cpu_tb.mycpu.myregfile.\registers[3][7:0]
+cpu_tb.mycpu.myregfile.\registers[4][7:0]
+cpu_tb.mycpu.myregfile.\registers[5][7:0]
+cpu_tb.mycpu.myregfile.\registers[6][7:0]
+@c00420
+cpu_tb.mycpu.myregfile.\registers[7][7:0]
+@28
+(0)cpu_tb.mycpu.myregfile.\registers[7][7:0]
+(1)cpu_tb.mycpu.myregfile.\registers[7][7:0]
+(2)cpu_tb.mycpu.myregfile.\registers[7][7:0]
+(3)cpu_tb.mycpu.myregfile.\registers[7][7:0]
+(4)cpu_tb.mycpu.myregfile.\registers[7][7:0]
+(5)cpu_tb.mycpu.myregfile.\registers[7][7:0]
+(6)cpu_tb.mycpu.myregfile.\registers[7][7:0]
+(7)cpu_tb.mycpu.myregfile.\registers[7][7:0]
+@1401200
+-group_end
+@200
+-Instruct cache
+@420
+cpu_tb.myinscache.address[10:0]
+@28
+cpu_tb.myinscache.instcache_busywait
+cpu_tb.myinscache.valid
+cpu_tb.myinscache.hit
+cpu_tb.myinscache.tagMatch
+@22
+cpu_tb.myinscache.inst_data[127:0]
+@28
+cpu_tb.myinscache.instruct_busywait
+cpu_tb.myinscache.instruct_read
+@420
+cpu_tb.myinscache.instruct_address[5:0]
+@28
+cpu_tb.myinscache.state[2:0]
+@200
+-instruct memory
+@28
+cpu_tb.myinstruct.readaccess
+@22
+cpu_tb.myinstruct.readdata[127:0]
+@200
+-data cache
+@28
+cpu_tb.mydcache.address[7:0]
+cpu_tb.mydcache.dcache_busywait
+cpu_tb.mydcache.dirty
+cpu_tb.mydcache.valid
+cpu_tb.mydcache.hit
+cpu_tb.mydcache.tagMatch
+cpu_tb.mydcache.mem_busywait
+cpu_tb.mydcache.mem_read
+cpu_tb.mydcache.mem_write
+@420
+cpu_tb.mydcache.mem_address[5:0]
+@28
+cpu_tb.mydcache.state[2:0]
+[pattern_trace] 1
+[pattern_trace] 0
